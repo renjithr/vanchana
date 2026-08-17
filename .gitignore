@@ -1,0 +1,7 @@
+# generated output — rebuild with: cd communistvanchana/src && python3 build_archive.py
+communistvanchana/build/
+
+# macOS / python noise
+.DS_Store
+__pycache__/
+*.pyc

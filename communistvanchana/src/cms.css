@@ -1,0 +1,54 @@
+/* Preview-only inline editor. Never shipped to production: shell.py links this
+   file solely when CMS_EDIT=1, so a normal build has no reference to it. */
+
+.cms-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:120;
+  background:#141019;color:#FFF7EA;display:flex;align-items:center;gap:14px;
+  padding:11px 20px;font-family:'Archivo',system-ui,sans-serif;font-size:13.5px;
+  box-shadow:0 -6px 26px rgba(20,16,25,.28);
+}
+.cms-badge{
+  font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:10.5px;
+  background:#FFA51E;color:#141019;padding:5px 11px;border-radius:999px;
+}
+.cms-hint{color:#9C93AC}
+.cms-sp{flex:1}
+.cms-bar button{
+  font-family:inherit;font-size:13px;font-weight:600;padding:9px 18px;cursor:pointer;
+  border-radius:999px;border:1px solid rgba(255,247,234,.35);
+  background:transparent;color:#FFF7EA;
+}
+.cms-bar button:hover{border-color:#FFF7EA}
+.cms-bar button.on{background:#FFA51E;border-color:#FFA51E;color:#141019}
+.cms-bar button.save{background:#12A4A0;border-color:#12A4A0;color:#fff}
+.cms-bar button.save:hover{background:#0E8F8B}
+.cms-bar button:disabled{opacity:.4;cursor:default}
+.cms-count{font-variant-numeric:tabular-nums;color:#FFA51E;font-weight:700}
+body{padding-bottom:56px}
+
+/* editing state */
+.cms-on [data-cms]{
+  outline:1px dashed rgba(59,47,217,.5);outline-offset:3px;border-radius:3px;
+  cursor:text;transition:outline-color .15s,background .15s;
+}
+.cms-on [data-cms]:hover{outline:1px solid #3B2FD9;background:rgba(59,47,217,.06)}
+.cms-on [data-cms][contenteditable="true"]{
+  outline:2px solid #3B2FD9;background:#fff;
+  box-shadow:0 2px 18px rgba(59,47,217,.18);
+}
+.cms-on [data-cms].dirty{outline:2px solid #12A4A0;background:rgba(18,164,160,.07)}
+/* the accordion buttons must not swallow clicks while editing */
+.cms-on .ch-btn{cursor:text}
+
+.cms-toast{
+  position:fixed;left:50%;bottom:70px;transform:translateX(-50%);z-index:130;
+  background:#141019;color:#FFF7EA;padding:12px 22px;border-radius:999px;
+  font-family:'Archivo',system-ui,sans-serif;font-size:13.5px;
+  box-shadow:0 8px 28px rgba(20,16,25,.3);
+}
+.cms-toast.err{background:#E23E2C}
+
+@media (max-width:640px){
+  .cms-bar{gap:8px;padding:9px 12px;font-size:12.5px;flex-wrap:wrap}
+  .cms-hint{display:none}
+}

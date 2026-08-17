@@ -1,0 +1,626 @@
+# ============================================================================
+#  communistvanchana.com  —  ENGLISH TEXT
+#
+#  HOW TO EDIT
+#    Change only the text BELOW each [id] line. Leave the [id] lines alone.
+#    A block runs until the next [id] line, so paragraphs can span lines.
+#    Lines starting with # are comments and are ignored.
+#    Save the file, then run:  ./preview.sh
+#
+#  You cannot break the build by editing text here. Quotes, commas and
+#  apostrophes are all safe. If a block is deleted, the original wording
+#  is used instead.
+# ============================================================================
+
+
+# --------------------------------------------------------------------------
+# SITE_EN
+[SITE_EN.name]
+Communist Vanchana
+
+[SITE_EN.brand_a]
+Vanchana
+
+[SITE_EN.brand_b]
+1942
+
+
+# --------------------------------------------------------------------------
+# NAV_EN
+[NAV_EN.0.0]
+/en/
+
+[NAV_EN.0.1]
+The story
+
+[NAV_EN.1.0]
+/aadharam/
+
+[NAV_EN.1.1]
+Sources
+
+[NAV_EN.2.0]
+/archive/
+
+[NAV_EN.2.1]
+Archive
+
+
+# --------------------------------------------------------------------------
+# FOOTER_EN
+[FOOTER_EN.note]
+This site argues a case, and does not hide it. But every chapter here names the document it rests on — the scan and the full transcript are one click away. Where a chapter draws on general history rather than on anything in our 41 documents, it says so on the chapter itself.
+
+
+# --------------------------------------------------------------------------
+# HOME_EN
+[HOME_EN.title]
+The Communist Betrayal — the documents of 1942
+
+[HOME_EN.meta]
+In 1942 the British arrested the communist leaders, then released them within months. Why? Thirty-six chapters from 41 British Home Department documents, with scans and full transcripts.
+
+[HOME_EN.tag]
+August 1942 · Quit India
+
+[HOME_EN.h1]
+The Communist Betrayal
+
+[HOME_EN.hook]
+1942: why did the British themselves release, within months, the communist leaders they had arrested?
+
+[HOME_EN.standfirst]
+Reports were coming that Japan would push into India at any moment — and Subhas Chandra Bose with them. Britain needed political and military support in India as never before. The Congress decided not to give it. But Britain found another way. Britain's real boot-lickers! They betrayed the freedom struggle on Britain's behalf. They wrote articles in the newspapers for Britain. They itemised the bill and asked to be paid for it — this is the story of those communist traitors and their betrayal. A history told by the Party's own documents, and one hardly ever discussed.
+
+[HOME_EN.howto]
+Thirty-six chapters. Open any one to read it, and click the document attached to it to check the British file's own scan right there.
+
+
+# --------------------------------------------------------------------------
+# CHAPTERS_EN
+[CHAPTERS_EN.1.title]
+Cripps came to India to break this deadlock
+
+[CHAPTERS_EN.1.paras.0]
+To understand India in 1942 you have to start with the map of the Second World War. The war was not something happening only in Europe. Japan was advancing rapidly through South-East Asia. Malaya and Singapore fell. Japan pushed into Burma as well. With that, an attack on India stopped being a hypothesis and became a real possibility.
+
+[CHAPTERS_EN.1.paras.1]
+At that point India was not merely a colony to Britain. Hundreds of thousands of Indian soldiers, the railways, the ports, food production, factories, raw materials — the war needed all of it. Writing to the American President Roosevelt in April 1942, Jawaharlal Nehru said India's war capacity was very large, its manpower immense, and its production capable of being raised enormously. But his argument was that this capacity could not be used to the full without a national government that had the people's confidence.
+
+[CHAPTERS_EN.1.paras.2]
+So Britain's real problem was this: India's resources and manpower had to be put to work for the war. But the Congress, the largest political force in India, was not willing to accept British rule.
+
+[CHAPTERS_EN.2.title]
+Cripps came to India to break this deadlock
+
+[CHAPTERS_EN.2.paras.0]
+It was in these circumstances that the British government sent Sir Stafford Cripps to India. Officially the Cripps Mission was an attempt to find a political understanding about India's future constitution. But the urgent reason behind it was the war itself. Only with the cooperation of India's main political forces could India's full capacity be turned against Japan.
+
+[CHAPTERS_EN.2.paras.1]
+The Congress position was different. A promise to discuss self-government after the war was not enough. If India's manpower and wealth were to be used now, Indians had to be given real political power now. Nehru put the same idea very plainly in his letter to Roosevelt.
+
+[CHAPTERS_EN.2.paras.2]
+The talks finally collapsed. But in the very days the talks with the Congress were breaking down, another and more private political relationship was taking shape.
+
+[CHAPTERS_EN.3.title]
+6 April 1942: “Secret and Personal” — a direct approach to P.C. Joshi
+
+[CHAPTERS_EN.3.paras.0]
+On 6 April 1942 Cripps's secretary sent a letter to Sir Reginald Maxwell, the Home Member of the Government of India. Its character alone is striking — “Secret and Personal.”
+
+[CHAPTERS_EN.3.paras.1]
+The subject was P.C. Joshi, general secretary of the Communist Party of India. At that moment a British government warrant for Joshi's arrest was in force. But Cripps wanted to speak to Joshi directly. To make that possible, Cripps's office asked that the warrant be withdrawn temporarily. The document also records that Joshi's friends had given an assurance that he would not use this temporary freedom for other political activity.
+
+[CHAPTERS_EN.3.paras.2]
+The next day the government suspended Joshi's arrest warrant for ten days. It instructed that the police were not to obstruct him from moving freely and travelling to Delhi.
+
+[CHAPTERS_EN.3.paras.3]
+One thing has to be said carefully here. We do not have a document proving that, because the talks with the Congress had failed, Britain picked the communists as a replacement. But this much is certain: at the very time the talks with the Congress were collapsing, Cripps's office established a special channel to a communist leader who was under warrant.
+
+[CHAPTERS_EN.4.title]
+Two years earlier the British had ordered this same Joshi arrested
+
+[CHAPTERS_EN.4.paras.0]
+To grasp what that means you have to go back to 1940. In that year the British government ordered P.C. Joshi arrested and detained. The justification was the prevention of activity prejudicial to the British war effort, to the defence of the country and to public order.
+
+[CHAPTERS_EN.4.paras.1]
+So in 1940, in Britain's eyes, Joshi was a leader who stood in the way of the war. Yet in 1942 the same administration is trying to talk to him directly.
+
+[CHAPTERS_EN.4.paras.2]
+What changed in those two years? You will not find the answer by looking only inside India. It takes you to the Soviet Union.
+
+[CHAPTERS_EN.5.title]
+When Hitler attacked the Soviet Union, communist policy changed
+
+[CHAPTERS_EN.5.paras.0]
+When the Second World War began, the Communist Party of India described it as a war between imperialist powers. Its first position was that Indians need not support Britain's war.
+
+[CHAPTERS_EN.5.paras.1]
+But on 22 June 1941 Hitler's Germany attacked the Soviet Union. That event changed the calculation of communist politics worldwide. The very survival of the Soviet Union was at stake. The Communist Party of India's own later histories describe the shift as a move “from an imperialist war to a people's war”. The basis of the new line was that Nazi Germany had to be defeated in order to save the Soviet Union.
+
+[CHAPTERS_EN.5.paras.2]
+One thing deserves attention here. The Party's war policy did not change because India had become free. Nor because the British administration had become a national government. The turning point was that the Soviet Union had been attacked.
+
+[CHAPTERS_EN.6.title]
+When Churchill and Stalin ended up in the same war alliance, communist politics in India shifted
+
+[CHAPTERS_EN.6.paras.0]
+Winston Churchill was not a communist. Joseph Stalin was no friend of British imperialism. Ideologically they stood at opposite poles. But Hitler became the common enemy of both.
+
+[CHAPTERS_EN.6.paras.1]
+On 26 May 1942 Britain and the Soviet Union signed a formal treaty of alliance against Germany. Mutual military assistance was at its centre.
+
+[CHAPTERS_EN.6.paras.2]
+This left the Communist Party of India with a new political problem. Should it go on opposing British rule? Or should it make sure that the war effort of the Allies — on which the Soviet Union's survival depended — did not collapse? The Party moved towards the second course.
+
+[CHAPTERS_EN.7.title]
+The British government records it itself: the communists' position has changed
+
+[CHAPTERS_EN.7.paras.0]
+On 21 April 1942 the Government of India sent the provincial governments a letter about communist prisoners. In it the government states openly that, owing to the communists' “change of attitude and desire to assist in the prosecution of the war”, it had already been possible to release a number of communist detainees.
+
+[CHAPTERS_EN.7.paras.1]
+This is not a political accusation made today. It is the British government's own document of the time.
+
+[CHAPTERS_EN.7.paras.2]
+The government then says: where there is reason to believe that communists previously convicted of non-violent anti-war activity would now assist the war, their release too could be considered.
+
+[CHAPTERS_EN.7.paras.3]
+So this was not merely P.C. Joshi's personal case. The British administration had noticed the change in the Communist Party's entire war policy.
+
+[CHAPTERS_EN.8.title]
+British intelligence decides to “try Joshi out”
+
+[CHAPTERS_EN.8.paras.0]
+On 27 April 1942 the Intelligence Bureau discussed withdrawing Joshi's warrant. The words they used are themselves striking: “as an experiment.”
+
+[CHAPTERS_EN.8.paras.1]
+What was to be tested? Joshi's real attitude to the war. The document says that too — it was to be understood through direct contact with him.
+
+[CHAPTERS_EN.8.paras.2]
+The document also says the warrant could be re-issued if it appeared he was not behaving as expected. The sentence used, rendered into plain English: “if we are not satisfied that he means to play the game…”
+
+[CHAPTERS_EN.8.paras.3]
+This is not friendly trust. It is a political experiment.
+
+[CHAPTERS_EN.9.title]
+Three days later the British assessment changes
+
+[CHAPTERS_EN.9.paras.0]
+30 April 1942. The Government of India writes to the provinces: there is reason to believe Joshi may now be willing to lend unconditional support to the war effort. It therefore directs that his warrant should be considered cancelled.
+
+[CHAPTERS_EN.9.paras.1]
+Recall it again. In 1940: a communist leader dangerous to the war effort. In 1942: a leader who might give the war effort unconditional support.
+
+[CHAPTERS_EN.9.paras.2]
+A change that large, within a few months, had begun to alter the Communist Party's political position itself.
+
+[CHAPTERS_EN.10.title]
+Not Joshi alone — the doors open for other communist prisoners too
+
+[CHAPTERS_EN.10.paras.0]
+Looking at the government papers of June 1942, some communist leaders had already been released. Sajjad Zaheer, R.C. Sinha and S.K. Mukerjee were out.
+
+[CHAPTERS_EN.10.paras.1]
+The government was also prepared to release another group including Rahul Sankrityayan, S.S. Mirajkar and A.K. Ghosh. There was a decision to withdraw the warrants against G.M. Adhikari and P. Sundarama Reddi as well.
+
+[CHAPTERS_EN.10.paras.2]
+Not everyone was let go. The government was not prepared to release Dange, Ghate, Ranadive and certain others immediately. So it is not right to say that a blanket concession was granted to all communists at once.
+
+[CHAPTERS_EN.10.paras.3]
+But one shift is clear: the government was reassessing, afresh, the cases of communists whose war policy had changed.
+
+[CHAPTERS_EN.11.title]
+July 1942: the decision to lift the ban goes all the way to London
+
+[CHAPTERS_EN.11.paras.0]
+In July 1942 things went further. The Government of India's proposal to lift the ban on the Communist Party and on communist newspapers reached the British War Cabinet in London.
+
+[CHAPTERS_EN.11.paras.1]
+The record of 13 July 1942 makes clear that the War Cabinet had no objection to it.
+
+[CHAPTERS_EN.11.paras.2]
+Now just hold the dates in mind. July — the way opens for the Communist Party to function legally. August — the Congress launches Quit India. A few weeks separate them.
+
+[CHAPTERS_EN.12.title]
+Subhas Chandra Bose read the same world war a different way
+
+[CHAPTERS_EN.12.paras.0]
+On the other side of the Communist Party's calculation stood Subhas Chandra Bose's. Britain is caught in a great war. Therefore the weakness of the British Empire should be used for India's freedom. Military assistance should be sought from Britain's enemies in order to drive British rule out of India.
+
+[CHAPTERS_EN.12.paras.1]
+In 1941 Bose escaped from India in secret. He reached Germany by way of Afghanistan. There he sought help against Britain. It was in 1943 that he reached East Asia and later took command of the Indian National Army.
+
+[CHAPTERS_EN.12.paras.2]
+So it is wrong to say that in August 1942 Bose was leading the Indian National Army in Japan. At that time he was in Germany.
+
+[CHAPTERS_EN.12.paras.3]
+But his policy was clear: use Britain's wartime weakness for India's freedom. The Communist Party's policy: make sure the war effort of the Allies, which included the Soviet Union, did not collapse. That is the great political difference.
+
+[CHAPTERS_EN.13.title]
+9 August: the Congress leadership goes to jail at a stroke
+
+[CHAPTERS_EN.13.paras.0]
+On 8 August 1942 the Quit India resolution was passed. The next day the British government arrested the principal Congress leaders, including Gandhi, Nehru, Patel and Maulana Abul Kalam Azad.
+
+[CHAPTERS_EN.13.paras.1]
+Nehru's own prison notes record that Azad, Patel, Govind Ballabh Pant, Kripalani, Pattabhi Sitaramayya, Asaf Ali and Narendra Deva were imprisoned with him in Ahmednagar Fort.
+
+[CHAPTERS_EN.13.paras.2]
+The political effect of this was very large. The moment the movement was declared, its national leadership was in custody. But the people's anti-British feeling did not disappear. In many places students, workers, local Congress workers and ordinary people carried the struggle on in their own way.
+
+[CHAPTERS_EN.13.paras.3]
+It was in this situation that the Communist Party began to run its own propaganda machine.
+
+[CHAPTERS_EN.14.title]
+“From August 9 we used every method” — the Communist Party's own report
+
+[CHAPTERS_EN.14.paras.0]
+The Communist Party's report on Kerala is very open. The Party admits that with the arrest of the national leaders, anti-British feeling among the people was strong.
+
+[CHAPTERS_EN.14.paras.1]
+It then writes: “From August 9 we used every form of agitation and propaganda.”
+
+[CHAPTERS_EN.14.paras.2]
+For what? To convince people that civil disobedience would not lead to freedom. To say that acts of sabotage would not lead to freedom. The Party's message was that such acts would end in slavery to Japan.
+
+[CHAPTERS_EN.14.paras.3]
+So the Communist Party's role was not confined to staying out of Quit India. By its own record, it ran an organised campaign to turn people away from Quit India's methods of struggle.
+
+[CHAPTERS_EN.15.title]
+The first major weapon: Deshabhimani
+
+[CHAPTERS_EN.15.paras.0]
+The first major instrument the Kerala Communist Party names in its own report is the newspaper Deshabhimani. It describes it as the Party's own provincial organ.
+
+[CHAPTERS_EN.15.paras.1]
+The Party's claim is that the paper, begun on 6 September 1942 with two thousand copies, had reached five thousand six hundred by January 1943.
+
+[CHAPTERS_EN.15.paras.2]
+But the content matters more than the numbers. The Party says so itself: almost every issue of Deshabhimani carried propaganda against sabotage of the country's defences.
+
+[CHAPTERS_EN.15.paras.3]
+That is to say, Deshabhimani was not merely a newspaper. The Party itself says it was the principal political weapon of the communist anti-sabotage campaign during Quit India.
+
+[CHAPTERS_EN.16.title]
+Not Kerala alone — communist propaganda in eleven languages
+
+[CHAPTERS_EN.16.paras.0]
+P.C. Joshi's central report says this work was not confined to Kerala. Joshi says the Communist Party's papers campaigned steadily against sabotage in eleven languages.
+
+[CHAPTERS_EN.16.paras.1]
+Its most striking sentence, in plain English: “Our main practical activity has been to sabotage the sabotage campaign.”
+
+[CHAPTERS_EN.16.paras.2]
+This is not an accusation raised later by anti-communists. The sentence is in a report the general secretary of the Communist Party gave to the British Home Department.
+
+[CHAPTERS_EN.17.title]
+Where is E.M.S. Namboodiripad in this campaign?
+
+[CHAPTERS_EN.17.paras.0]
+The Kerala Communist Party's report records E.M.S. Namboodiripad's part clearly too.
+
+[CHAPTERS_EN.17.paras.1]
+The Party says the publication E.M.S. wrote, “People's War and the Kisans”, presented growing more food as a patriotic duty for the peasants. For whose benefit was that food? The document says: “for the benefit of the army and the people.”
+
+[CHAPTERS_EN.17.paras.2]
+On 6 September 1942 a large meeting was held at Calicut with E.M.S. in the chair. The Communist Party itself describes that event as “the inauguration of a province-wide campaign against sabotage”.
+
+[CHAPTERS_EN.17.paras.3]
+The Party claims ten thousand people attended and that five thousand nine hundred copies of E.M.S.'s address were sold.
+
+[CHAPTERS_EN.18.title]
+What they told the workers: “stay at your posts”
+
+[CHAPTERS_EN.18.paras.0]
+The Communist Party's own report says it distributed five thousand handbills for the workers of Kerala. The main message: “remain at your posts.” And with it: “increase production.”
+
+[CHAPTERS_EN.18.paras.1]
+In the conditions of 1942 this is not ordinary production propaganda. Civil disobedience is under way across the country. Workers' strikes could be one way of putting pressure on British rule. But at the same time the factories, the railways and food distribution were needed by the British war machine too.
+
+[CHAPTERS_EN.18.paras.2]
+The Communist Party's own central policy says: strike action must be the last weapon only. We will always do our utmost to keep production going.
+
+[CHAPTERS_EN.19.title]
+The Party claims credit for thirty thousand handloom weavers not striking
+
+[CHAPTERS_EN.19.paras.0]
+The Kerala Communist Party gives a detailed account of roughly thirty thousand handloom weavers in Chirakkal. It admits anti-British feeling among them was strong. There was economic discontent as well. The report says Quit India supporters tried to bring them out on strike.
+
+[CHAPTERS_EN.19.paras.1]
+But the Party's claim is that, after the Communist Party and the handloom workers' union intervened, the workers stayed at work. What they were told repeatedly: “increase production for the army and the people.”
+
+[CHAPTERS_EN.19.paras.2]
+The figure of thirty thousand is the Party's own claim. But the objective is perfectly clear: prevent the strike, keep production going.
+
+[CHAPTERS_EN.20.title]
+From the mills to the railway workers, the same policy
+
+[CHAPTERS_EN.20.paras.0]
+The Party claims the workers of Seetharam Mills were likely to strike and that it did not happen because of communist influence. The report also says the Party's influence among railway workers grew.
+
+[CHAPTERS_EN.20.paras.1]
+Here the trade unions were not functioning solely as bodies for wages and working conditions. They were also used as a political network carrying the war policy adopted by the central Party into the workplaces.
+
+[CHAPTERS_EN.21.title]
+To students: protest by all means, but no prolonged strike
+
+[CHAPTERS_EN.21.paras.0]
+Students played a large part in the Quit India movement. Explaining its own student policy, the Kerala Communist Party says it used “elastic tactics”.
+
+[CHAPTERS_EN.21.paras.1]
+The aim: avoid prolonged student strikes. Keep students inside the schools and colleges. Keep the educational institutions from closing.
+
+[CHAPTERS_EN.21.paras.2]
+That is, student protest need not be prevented entirely. But it must not turn into a sustained struggle. That is the approach visible in the document.
+
+[CHAPTERS_EN.22.title]
+The heading says it outright: “Prevention of Hartals”
+
+[CHAPTERS_EN.22.paras.0]
+One section heading in the Kerala Communist Party's report is itself remarkable: “Prevention of Hartals”.
+
+[CHAPTERS_EN.22.paras.1]
+The Party says that immediately after 9 August, and then on the ninth of every month, Quit India supporters tried to organise hartals.
+
+[CHAPTERS_EN.22.paras.2]
+What did the Communist Party do? It issued handbills. It put up posters. It campaigned against the hartal. Then it writes down its own success: nowhere in Kerala did those hartal attempts succeed.
+
+[CHAPTERS_EN.22.paras.3]
+The argument the Party gave for opposing hartals is striking too. Stopping economic life in the towns would hit the people. And at that moment, hitting the people was the equivalent of helping Japan. In this way the Party recast the Quit India supporters' hartal from an anti-British struggle into an act that helped Japan.
+
+[CHAPTERS_EN.23.title]
+Thirty thousand handbills aimed at Congress workers
+
+[CHAPTERS_EN.23.paras.0]
+How large was this campaign? Look at the Communist Party's own figures.
+
+[CHAPTERS_EN.23.paras.1]
+Thirty thousand handbills under the title “To the Congressmen of Kerala”. In them Congress workers were asked to set their face against sabotage. Five thousand for the workers. Five thousand for the students. Ten thousand for the peasants. Separate propaganda for the Muslim community. Political songs. Booklets. Different messages for different sections of society.
+
+[CHAPTERS_EN.23.paras.2]
+This is not a general political statement. It is an organised propaganda operation targeting each section separately.
+
+[CHAPTERS_EN.24.title]
+People were made to pledge that they would help the Allied forces
+
+[CHAPTERS_EN.24.paras.0]
+Those signing the Communist Party's Unity Week pledge had to undertake to defend the country against Japanese attack. They also had to pledge to “co-operate with and assist” the armies fighting at the front.
+
+[CHAPTERS_EN.24.paras.1]
+The pledge also included finding Japanese sympathisers landing secretly on the coast and “handing them over to the authorities”.
+
+[CHAPTERS_EN.24.paras.2]
+This is where the practical resemblance between the Communist Party's war propaganda and the British administration's security policy is at its clearest.
+
+[CHAPTERS_EN.25.title]
+From the newspaper to the doorstep — the whole Party machine at work
+
+[CHAPTERS_EN.25.paras.0]
+When the Communist Party describes its own activity it does not mention large public meetings alone. Marches. Small gatherings. Political study meetings. Signature collection. And finally: squads doing house-to-house propaganda.
+
+[CHAPTERS_EN.25.paras.1]
+Now the whole structure is clear. The message through the newspaper Deshabhimani. Speeches by leaders like E.M.S. Into the factories through the trade unions. Into the colleges through the student organisations. Into the villages through the peasant organisations. And finally Party workers going door to door.
+
+[CHAPTERS_EN.25.paras.2]
+The Party itself describes this as a great organised network carrying one political line into every layer of society.
+
+[CHAPTERS_EN.26.title]
+Why did Subhas Bose's Forward Bloc become a communist target?
+
+[CHAPTERS_EN.26.paras.0]
+Subhas Bose was in Germany at the time. But his Forward Bloc was active in India.
+
+[CHAPTERS_EN.26.paras.1]
+P.C. Joshi's report says that after the arrest of the Congress leaders on 9 August, Congress Socialists and Forward Bloc workers played a strong part in some sections of the movement. They criticised the communists as wreckers of the struggle. Joshi's answer: “We fought sabotage both politically and practically.”
+
+[CHAPTERS_EN.26.paras.2]
+Another communist document describes Forward Bloc workers in very harsh language. The Communist Party went as far as arguing before the British government that releasing certain detained workers would help draw young men away from the influence of the Forward Bloc.
+
+[CHAPTERS_EN.26.paras.3]
+A report of the British Madras government also records that a communist meeting in Malabar attacked Subhas Chandra Bose and the Forward Bloc. That is, the Forward Bloc had become an internal rival in the communists' wartime politics.
+
+[CHAPTERS_EN.27.title]
+The Communist Party itself says it had a hand in the failure of civil disobedience in Kerala
+
+[CHAPTERS_EN.27.paras.0]
+The most striking passage in all these documents comes here. The Communist Party says it prevented workers' strikes. It says it prevented prolonged student strikes. It says it defeated hartals. It says it turned people away from the side of the struggle.
+
+[CHAPTERS_EN.27.paras.1]
+Then the report writes: “It was, in fact, not the blind repression of the police but our political campaign among the people that led to the failure of the Civil Disobedience Movement in Kerala.”
+
+[CHAPTERS_EN.27.paras.2]
+This is decisive. It is not an accusation raised by the Communist Party's opponents. It is a sentence the Communist Party itself set down as its own achievement, in a report given to the British government.
+
+[CHAPTERS_EN.27.paras.3]
+At the same time a limit has to be understood. The Communist Party may have presented its own influence with exaggeration. British intelligence officers later remarked that some communist claims were overstated. So the documents are not enough to say “the Communist Party single-handedly broke Quit India in Kerala.” But this much can be said with certainty: “we tried to weaken it, and we ourselves told the government we had a hand in it.”
+
+[CHAPTERS_EN.28.title]
+After all this, what did the Communist Party ask the British government for?
+
+[CHAPTERS_EN.28.paras.0]
+Here the story becomes more remarkable still. One section heading in the Kerala Communist Party's document reads: “Our Demands”.
+
+[CHAPTERS_EN.28.paras.1]
+The first demand: “Release all our comrades in jail; withdraw the arrest warrants.” It says those convicted in the Morazha, Mattanur and Kayyur cases should be included. Expulsion orders against communist students should be cancelled. The government should instruct the police and other officials not to obstruct Party work.
+
+[CHAPTERS_EN.28.paras.2]
+One limit of evidence must be respected here. We do not have a secret written bargain saying “break Quit India and we will release you in exchange.” But did the Party itself establish a political connection between its own work and its demands? The answer to that is clear.
+
+[CHAPTERS_EN.29.title]
+“Release our people and we can fight sabotage harder”
+
+[CHAPTERS_EN.29.paras.0]
+Of the detained communist workers the Party tells the government: “They are our best mass mobilisers and organisers.” If they are released: “they will help in organising and rallying the people for national defence and against sabotage.”
+
+[CHAPTERS_EN.29.paras.1]
+The Party's report from Cochin says it even more directly: if communist workers are released and the Party allowed to function legally, “we will be able to combat the sabotage movement more effectively.”
+
+[CHAPTERS_EN.29.paras.2]
+So although there is no formal quid pro quo, the political argument is unmistakable: release our workers and we can do more to stop the sabotage that is your wartime problem.
+
+[CHAPTERS_EN.30.title]
+P.C. Joshi sent this entire report directly to the British Home Member
+
+[CHAPTERS_EN.30.paras.0]
+These Kerala reports were not papers that stayed in a local Party office. On 15 March 1943 P.C. Joshi sent the large report containing them to Sir Reginald Maxwell, the Home Member of the Government of India.
+
+[CHAPTERS_EN.30.paras.1]
+In his covering letter he says he can give further explanation if wanted, and that he is willing to come and talk in person if necessary. He also asks the government to intervene.
+
+[CHAPTERS_EN.30.paras.2]
+So these accounts of communist work in Kerala are not merely local Party propaganda. They were part of a political argument that the central communist leadership submitted to the British government.
+
+[CHAPTERS_EN.31.title]
+How did the Communist Party explain its own stance towards the British government?
+
+[CHAPTERS_EN.31.paras.0]
+One section of P.C. Joshi's report is headed: “Our attitude to the Government”. What the Party says there, in plain English: “We offer our co-operation to the Government in every measure of National defence.”
+
+[CHAPTERS_EN.31.paras.1]
+It then sets out its own policy in four short lines: nothing against defence; everything for defence; with the Government wherever possible; and always on our own as well.
+
+[CHAPTERS_EN.31.paras.2]
+More striking still, the Party says: no other major political organisation has treated this war as its own people's war and declared unconditional support for it. It says it has declared even limited co-operation with the existing British government.
+
+[CHAPTERS_EN.31.paras.3]
+Recall here the British assessment of April 1942. At that time the government recorded that Joshi might be willing to give the war “unconditional support”. A year later the Communist Party describes its own war policy in the very same terms.
+
+[CHAPTERS_EN.32.title]
+“Why do we make these demands?” — the Party answers itself
+
+[CHAPTERS_EN.32.paras.0]
+There is a very important heading in the Communist Party's report: “Why do we make these demands?”
+
+[CHAPTERS_EN.32.paras.1]
+Freedom to hold meetings. To bring out demonstrations. To work without the fear that the papers will be shut down. To have the prisoners released. On what basis are all these asked for?
+
+[CHAPTERS_EN.32.paras.2]
+The Party says: “not merely on the basis of normal civil liberties; but primarily on political grounds.” Which are? “What our Party does in the ranks of the people, and our work against the Fascist aggressors.”
+
+[CHAPTERS_EN.32.paras.3]
+The Party then lists its own achievements. It prevented food riots. It isolated the forces of sabotage. Despite a call for a general strike: “we were able to keep production going.”
+
+[CHAPTERS_EN.32.paras.4]
+So the connection between the work and the demands is not something we impose from outside. The Communist Party establishes that connection itself, in the document.
+
+[CHAPTERS_EN.33.title]
+What did the British Home Department call it?
+
+[CHAPTERS_EN.33.paras.0]
+It is natural to ask whether the Communist Party was talking up its own work. So the internal minute of the British Home Department has to be looked at.
+
+[CHAPTERS_EN.33.paras.1]
+On 24 March 1943, having read the Communist Party's assurances, Sir Richard Tottenham writes: “These assurances do, to some extent, commit the Party to cooperation with Government.”
+
+[CHAPTERS_EN.33.paras.2]
+He records something else as well. That it would be to the government's advantage if the Communist Party could be brought to a more open position against the Congress Socialists and the Forward Bloc.
+
+[CHAPTERS_EN.33.paras.3]
+That is, the phrase “cooperation with Government” was not invented later by anti-communists. The same idea is there in the British government's own internal record.
+
+[CHAPTERS_EN.34.title]
+But the British government did not believe everything the Communist Party said
+
+[CHAPTERS_EN.34.paras.0]
+A historical limit has to be understood here. British officials too suspected that the Communist Party might be overstating its own influence.
+
+[CHAPTERS_EN.34.paras.1]
+The Intelligence Bureau assessed P.C. Joshi's report as full of exaggerated claims and denunciations. Another report of the Madras government remarked that although the communists made large speeches against fascism, the help they actually gave the war effort was very small.
+
+[CHAPTERS_EN.34.paras.2]
+So we need not accept every figure the Party gave as historical truth. But one distinction matters greatly: how far the Communist Party succeeded may be arguable. What it tried to do is perfectly clear in its own documents.
+
+[CHAPTERS_EN.35.title]
+Later, asking for more electricity for its own press, it invokes the same work
+
+[CHAPTERS_EN.35.paras.0]
+On 8 November 1943 the New Age Printing Press, owned by the Communist Party, asked the Bombay government for more electricity. The Party's papers, books and pamphlets were printed there. A higher-capacity motor had to be installed. The electricity limit had to be raised. A certificate recognising the press as an essential establishment was wanted.
+
+[CHAPTERS_EN.35.paras.1]
+Note what the Party reminded the British government of in justifying the application: that during 1942–43 the Communist Party had done great work in turning people away from attacking the country's defences.
+
+[CHAPTERS_EN.35.paras.2]
+It is a perfectly plain argument: help us increase our printing capacity; we are the party that worked to turn people away from the activities that damage your wartime defence.
+
+[CHAPTERS_EN.35.paras.3]
+The document proves the application was made. This document does not prove the government granted it.
+
+[CHAPTERS_EN.36.title]
+The justification offered when asking for about ten tons of newsprint a month
+
+[CHAPTERS_EN.36.paras.0]
+In another application the Communist Party asks for special newsprint permits for various Party papers and publishing houses. Deshabhimani and many other publications are on the list. The Party records its own total requirement as about ten tons of newsprint a month.
+
+[CHAPTERS_EN.36.paras.1]
+What does the Party say the government should bear in mind in considering the application? The Party's policy. The part the Party played during the crisis. It also writes that the paper would be used “for the victory of the United Nations”.
+
+[CHAPTERS_EN.36.paras.2]
+Again the same distinction: there is proof the application was made. In this document there is no proof it was granted.
+
+
+# --------------------------------------------------------------------------
+# CONCLUSION_EN
+[CONCLUSION_EN.title]
+In the end: the real question is not “didn't the Communist Party take part in Quit India?”
+
+[CONCLUSION_EN.paras.0]
+The communist history of 1942 is often compressed into one sentence: “they did not take part in Quit India.” But their own documents say more than that.
+
+[CONCLUSION_EN.paras.1]
+They used the newspapers. They used the trade unions. They urged workers to stay at work. They asked for production to be increased. They tried to prevent prolonged student strikes. They issued handbills and posters against hartals. They ran an organised campaign against sabotage. They attacked the Forward Bloc politically. They sent workers from door to door. And they claimed before the British government that their own political campaign had a hand in the failure of the civil disobedience movement in Kerala.
+
+[CONCLUSION_EN.paras.2]
+And after that: release the prisoners. Withdraw the warrants. Allow meetings. Allow the papers to function. Let the police not obstruct Party work — these were the demands. And the Communist Party itself wrote that these were asked for not merely as ordinary civil rights but primarily on political grounds.
+
+[CONCLUSION_EN.paras.3]
+P.C. Joshi's own words: “We offer our co-operation to the Government in every measure of National defence.” The British Home Department's assessment: “cooperation with Government.”
+
+[CONCLUSION_EN.paras.4]
+So the real question about 1942 is this: while Gandhi, Nehru, Patel and Azad lay in British prisons, and Subhas Chandra Bose sought a military route abroad to drive Britain out, what was the organised political strength of the Communist Party of India used for inside India?
+
+[CONCLUSION_EN.paras.5]
+To look for the answer you need not read only the books written by the Communist Party's enemies. You can begin the search in the documents the Communist Party itself gave to the British government.
+
+
+# --------------------------------------------------------------------------
+# UI_EN
+[UI_EN.chapters]
+chapters
+
+[UI_EN.results]
+results
+
+[UI_EN.expand]
+Expand all
+
+[UI_EN.collapse]
+Collapse all
+
+[UI_EN.next]
+Next chapter ↓
+
+[UI_EN.docs]
+The document behind this
+
+[UI_EN.search]
+Search the story — a name, a place, a word…
+
+[UI_EN.clear]
+Clear search
+
+[UI_EN.empty]
+That word does not appear in the story.
+
+[UI_EN.skip]
+Skip to content
+
+[UI_EN.menu]
+Menu
+
+
+# --------------------------------------------------------------------------
+# NOTES_EN
+[NOTES_EN.context]
+This information is available in the public domain.
+
