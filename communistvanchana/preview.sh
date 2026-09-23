@@ -2,6 +2,8 @@
 # Preview the site with inline editing.
 #   ./preview.sh             build, serve, open — Edit button enabled
 #   ./preview.sh --no-edit   exactly what production gets, no editor at all
+#
+# This one holds the terminal. For a detached server use ./start.sh and ./stop.sh.
 set -euo pipefail
 cd "$(dirname "$0")"
 PORT="${CMS_PORT:-8765}"

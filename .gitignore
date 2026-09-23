@@ -5,3 +5,6 @@ communistvanchana/build/
 .DS_Store
 __pycache__/
 *.pyc
+
+# preview server pid + log — ./start.sh / ./stop.sh
+communistvanchana/.preview/
