@@ -108,6 +108,21 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(raw)
 
+    def send_error(self, code, message=None, explain=None):
+        # behave like GitHub Pages and Cloudflare: an unmatched route gets
+        # build/404.html with a 404 status, not Python's bare error page
+        page = os.path.join(BUILD, "404.html")
+        if code == 404 and self.command in ("GET", "HEAD") and os.path.exists(page):
+            raw = open(page, "rb").read()
+            self.send_response(404)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(raw)))
+            self.end_headers()
+            if self.command == "GET":
+                self.wfile.write(raw)
+            return
+        super().send_error(code, message, explain)
+
     def end_headers(self):
         # preview must never serve stale HTML after a rebuild
         self.send_header("Cache-Control", "no-store")
