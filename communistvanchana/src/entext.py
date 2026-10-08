@@ -89,6 +89,7 @@ SECTION_NOTES = {
     "CHAPTERS": "The 36 story chapters",
     "CONCLUSION": "Closing section",
     "NOTES": "Small reusable notices",
+    "CREDIT_EN": "Thanks to Sangeeth (Keraleyam) — home page and footer",
     "DOC_ML": "Short title shown for each document",
     "DOC_DESC": "One-line description shown for each document",
 }

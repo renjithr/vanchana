@@ -4,7 +4,7 @@ import json, os, re, shutil, sys, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from shell import (head, nav, footer, esc, picture, breadcrumb, WEBSITE_LD,
-                   DOMAIN, EDIT)
+                   DOMAIN, EDIT, CREDIT_URL)
 import content_en
 import content_ml, ml_labels as L, mltext, entext
 
@@ -187,6 +187,7 @@ def build_home(lang="ml"):
         '<div class="chapters" id="chapters">%s%s</div>'
         '<p class="ch-empty" id="chEmpty" hidden>%s</p>'
         '</section>'
+        '%s'
         '<section class="sec"><div class="cards-wide">'
         '<a class="linkcard" style="background:var(--ink)" href="/archive/">'
         '<span class="t" style="color:var(--cream)">The Archive<br>'
@@ -207,6 +208,7 @@ def build_home(lang="ml"):
          esc(u["chapters"]), esc(u["results"]), len(CHAPTERS), esc(u["chapters"]),
          esc(u["expand"]), esc(u["collapse"]), esc(u["expand"]),
          chapters, concl, esc(u["empty"]),
+         credit_section(lang),
          "Sources" if en else "ആധാരം",
          ("Where the documents come from, and what they do not prove" if en
           else "രേഖകൾ എവിടെ നിന്ന്, എന്ത് തെളിയിക്കുന്നില്ല"))
@@ -222,9 +224,36 @@ def build_home(lang="ml"):
                       for c in CHAPTERS for n in c.get("docs", [])][:20],
         "about": [{"@type": "Thing", "name": "Quit India Movement"},
                   {"@type": "Thing", "name": "Communist Party of India"}],
+        "contributor": {"@type": "Person", "name": "Sangeeth", "url": CREDIT_URL},
     }]
     w(out, head(H["title"], H["meta"], path, lang, "article", ld, alts=alts)
       + nav(path, lang) + body + doc_panel() + footer(lang=lang))
+
+def credit_section(lang, tone="ink"):
+    """Thanks to Sangeeth, who gathered the documents and gave them freely.
+
+    Ink on the home page; amber on the sources page, which already ends on an
+    ink slab right above the (ink) footer.
+    """
+    C = content_en.CREDIT_EN if lang == "en" else content_ml.CREDIT
+    ink = tone == "ink"
+    tag_style = ' style="background:var(--amber);color:var(--ink)"' if ink else ""
+    p_style = "" if ink else ' style="color:var(--on-amber)"'
+    paras = "".join('<p%s%s>%s</p>' % (p_style, cms(p), esc(p)) for p in C["paras"])
+    return (
+        '<section class="slab %s" id="credit">'
+        '<div class="hero-inner">'
+        '<p class="tag"%s><span%s>%s</span></p>'
+        '<h2 style="margin-top:24px;max-width:24ch;color:var(--%s)"%s>%s</h2>'
+        '<div class="prose" style="margin-top:28px;max-width:62ch">%s</div>'
+        '<div class="btnrow" style="margin-top:32px">'
+        '<a class="btn %s" href="%s" rel="noopener"><span%s>%s</span> &rarr;</a>'
+        '</div></div></section>'
+    ) % ("slab-ink" if ink else "slab-amber",
+         tag_style, cms(C["tag"]), esc(C["tag"]),
+         "cream" if ink else "ink", cms(C["title"]), esc(C["title"]),
+         paras,
+         "btn-amber" if ink else "btn-ink", CREDIT_URL, cms(C["link"]), esc(C["link"]))
 
 def doc_panel():
     """Empty shell the slide-in panel fills from /d/<no>.json."""
@@ -268,7 +297,7 @@ def build_sources():
         '<section class="hero hero-violet">'
         '<div class="blob" style="right:-120px;top:-130px;width:440px;height:440px;background:var(--blue-pale2)"></div>'
         '<div class="hero-inner">'
-        '<p class="tag" style="background:var(--blue);color:var(--cream)">പണി കാണിക്കുന്നു</p>'
+        '<p class="tag" style="background:var(--blue);color:var(--cream)">Reference</p>'
         '<h1 style="color:var(--blue-ink)">ആധാരം</h1>'
         '<p class="standfirst" style="color:#3B3357">'
         'ഈ സൈറ്റ് ഒരു പക്ഷം പിടിക്കുന്നു. അതുകൊണ്ടുതന്നെ ഉറവിടങ്ങളുടെ കാര്യത്തിൽ '
@@ -290,6 +319,7 @@ def build_sources():
         '<section class="sec"><h2>രേഖകൾ എവിടെ നിന്ന്</h2>'
         '<p class="lead">ഇവ ഒരൊറ്റ ശേഖരത്തിൽ നിന്നുള്ളതല്ല.</p>'
         '<div class="people">%s</div></section>'
+        '%s'
         '<section class="slab slab-ink"><div class="hero-inner">'
         '<h2>ഞങ്ങളുടെ രേഖകളിൽ ഇല്ലാത്തത്</h2>'
         '<p class="lead lead-dark">താഴെപ്പറയുന്ന അധ്യായങ്ങൾ പൊതുചരിത്രത്തെ ആശ്രയിക്കുന്നു. '
@@ -302,7 +332,7 @@ def build_sources():
         'വായിച്ചിട്ടുണ്ടെങ്കിൽ, അത് തിരുത്തേണ്ടതുണ്ട്. സ്കാൻ ഓരോ താളിലും '
         'ഉള്ളതുകൊണ്ട് ആർക്കും പരിശോധിക്കാം.</p>'
         '</div></section>'
-    ) % (rows, ctx_list)
+    ) % (rows, credit_section("ml", "amber"), ctx_list)
 
     ld = [breadcrumb([("സംഭവങ്ങൾ", "/"), ("ആധാരം", "/aadharam/")])]
     w("aadharam/index.html",

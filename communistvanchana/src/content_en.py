@@ -311,7 +311,23 @@ UI_EN = {
     "skip": "Skip to content", "menu": "Menu",
 }
 
+CREDIT_EN = {
+    "tag": "Thanks",
+    "title": "These documents reached us through Sangeeth",
+    "paras": [
+        "The documents on this site were collected by Sangeeth, who runs the "
+        "Keraleyam page on Facebook. He spent his own money and effort to bring "
+        "them out of the archives.",
+        "When we asked whether we could use them, he gave us all of it — without "
+        "even asking to be credited.",
+        "People like him make this world a better place. We, and every Indian, "
+        "will remember this great contribution.",
+    ],
+    "link": "Keraleyam on Facebook",
+    "footer": "Documents collected and shared by Sangeeth",
+}
+
 NS_EN = {"SITE_EN": SITE_EN, "NAV_EN": NAV_EN, "FOOTER_EN": FOOTER_EN,
          "HOME_EN": HOME_EN, "CHAPTERS_EN": CHAPTERS_EN,
          "CONCLUSION_EN": CONCLUSION_EN, "UI_EN": UI_EN,
-         "NOTES_EN": {"context": CONTEXT_NOTE_EN}}
+         "NOTES_EN": {"context": CONTEXT_NOTE_EN}, "CREDIT_EN": CREDIT_EN}

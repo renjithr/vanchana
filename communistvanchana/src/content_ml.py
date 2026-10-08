@@ -385,6 +385,24 @@ CONTEXT_NOTE = "പബ്ലിക് സ്പേസിൽ ഈ വിവരങ�
 CHAPTERS = [dict(c) for c in CHAPTERS]
 NAV = [list(n) for n in NAV]
 
+# Thanks to the person who gathered the documents. Shown on the home page and
+# the sources page; `footer` is the one-line version on every page.
+CREDIT = {
+    "tag": "നന്ദി",
+    "title": "ഈ രേഖകൾ ഞങ്ങളിലേക്ക് എത്തിച്ചത് സംഗീത്",
+    "paras": [
+        "ഈ സൈറ്റിലെ രേഖകൾ ശേഖരിച്ചത് Keraleyam എന്ന ഫേസ്ബുക്ക് പേജ് നടത്തുന്ന "
+        "സംഗീത് ആണ്. സ്വന്തം പണവും അധ്വാനവും ചെലവഴിച്ച് ആർക്കൈവുകളിൽ നിന്ന് "
+        "അദ്ദേഹം കണ്ടെടുത്തതാണ് ഇവയെല്ലാം.",
+        "ഇവ ഉപയോഗിക്കാമോ എന്ന് ചോദിച്ചപ്പോൾ ഒരു മടിയും കൂടാതെ എല്ലാം തന്നു — "
+        "തന്റെ പേര് വയ്ക്കണമെന്നു പോലും ആവശ്യപ്പെടാതെ.",
+        "ഇതുപോലുള്ള മനുഷ്യരാണ് ഈ ലോകത്തെ കൂടുതൽ നല്ലൊരിടമാക്കുന്നത്. "
+        "ഈ വലിയ സംഭാവന ഞങ്ങളും ഓരോ ഇന്ത്യക്കാരനും എന്നും ഓർക്കും.",
+    ],
+    "link": "Keraleyam ഫേസ്ബുക്ക് പേജ്",
+    "footer": "രേഖകൾ ശേഖരിച്ച് പങ്കുവച്ചത്: സംഗീത്",
+}
+
 NS = {"SITE": SITE, "NAV": NAV, "FOOTER": FOOTER, "HOME": HOME,
       "CHAPTERS": CHAPTERS, "CONCLUSION": CONCLUSION,
-      "NOTES": {"context": CONTEXT_NOTE}}
+      "NOTES": {"context": CONTEXT_NOTE}, "CREDIT": CREDIT}

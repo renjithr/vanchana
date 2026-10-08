@@ -624,3 +624,27 @@ Menu
 [NOTES_EN.context]
 This information is available in the public domain.
 
+
+# --------------------------------------------------------------------------
+# Thanks to Sangeeth (Keraleyam) — home page and footer
+[CREDIT_EN.tag]
+Thanks
+
+[CREDIT_EN.title]
+These documents reached us through Sangeeth
+
+[CREDIT_EN.paras.0]
+The documents on this site were collected by Sangeeth, who runs the Keraleyam page on Facebook. He spent his own money and effort to bring them out of the archives.
+
+[CREDIT_EN.paras.1]
+When we asked whether we could use them, he gave us all of it — without even asking to be credited.
+
+[CREDIT_EN.paras.2]
+People like him make this world a better place. We, and every Indian, will remember this great contribution.
+
+[CREDIT_EN.link]
+Keraleyam on Facebook
+
+[CREDIT_EN.footer]
+Documents collected and shared by Sangeeth
+

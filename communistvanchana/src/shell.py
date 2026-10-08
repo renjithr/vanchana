@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 """Shared HTML shell: head, SEO metadata, structured data, nav, footer."""
 import json, html, os
-from content_ml import SITE, NAV, FOOTER
+from content_ml import SITE, NAV, FOOTER, CREDIT
 
 DOMAIN = SITE["domain"]
+# Sangeeth's page; he gathered the documents. Credited on every page.
+CREDIT_URL = "https://www.facebook.com/keraleyam"
 WIDTH_FALLBACK = 400
 
 # Preview-only inline editor. Set by the CMS server; a normal build never sees
@@ -114,9 +116,10 @@ def nav(current, lang="ml"):
 <main id="main">""" % (home, esc(brand_a), esc(brand_b), links, other))
 
 def footer(dark=True, lang="ml"):
-    from content_en import NAV_EN, FOOTER_EN, SITE_EN
+    from content_en import NAV_EN, FOOTER_EN, SITE_EN, CREDIT_EN
     items = NAV_EN if lang == "en" else NAV
     note = FOOTER_EN["note"] if lang == "en" else FOOTER["note"]
+    credit = CREDIT_EN if lang == "en" else CREDIT
     brand_a = SITE_EN["brand_a"] if lang == "en" else SITE["brand_a"]
     brand_b = SITE_EN["brand_b"] if lang == "en" else SITE["brand_b"]
     links = "".join('<a href="%s">%s</a>' % (h, esc(l)) for h, l in items)
@@ -128,6 +131,7 @@ def footer(dark=True, lang="ml"):
 <div class="mark">%s<span style="color:var(--amber)">&thinsp;/&thinsp;</span>%s</div>
 <p>%s</p>
 <p style="font-size:13.5px;opacity:.75">%s</p>
+<p style="font-size:13.5px">%s &middot; <a href="%s" rel="noopener" style="color:var(--amber)">Keraleyam</a></p>
 </div>
 <nav aria-label="Menu">%s</nav>
 </div>
@@ -135,7 +139,8 @@ def footer(dark=True, lang="ml"):
 <script src="/assets/site.js" defer></script>
 %s</body>
 </html>
-""" % (cls, esc(brand_a), esc(brand_b), esc(note), esc(SOURCE_LINE_EN if lang == "en" else SOURCE_LINE_ML), links, CMS_ASSETS)
+""" % (cls, esc(brand_a), esc(brand_b), esc(note), esc(SOURCE_LINE_EN if lang == "en" else SOURCE_LINE_ML),
+       esc(credit["footer"]), CREDIT_URL, links, CMS_ASSETS)
 
 SOURCE_LINE_ML = ("രേഖകളുടെ ഉറവിടം: National Archives of India, India Office Records, "
                   "The Collected Works of Mahatma Gandhi.")
