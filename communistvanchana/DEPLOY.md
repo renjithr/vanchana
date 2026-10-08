@@ -1,4 +1,52 @@
-# Deploying communistvanchana.com to Cloudflare Pages
+# Deploying communistvanchana.com
+
+## GitHub Pages (current host)
+
+`.github/workflows/pages.yml` (at the repo root) builds the site and publishes it
+on every push to `main`. Nothing to run locally; push and wait about a minute.
+Progress is under the repo's **Actions** tab.
+
+### One-time setup
+
+1. **Repo visibility.** Pages on a free account needs a public repo. Either make
+   `renjithr/vanchana` public, or be on GitHub Pro.
+2. **Turn Pages on.** Repo → **Settings** → **Pages** → **Source:** *GitHub Actions*.
+3. **Verify the domain** (stops anyone else claiming it on GitHub). Your profile →
+   **Settings** → **Pages** → **Add a domain** → `communistvanchana.com`. GitHub
+   shows a TXT record; add it in GoDaddy (step 4) and click **Verify**.
+4. **GoDaddy DNS.** My Products → `communistvanchana.com` → **DNS**. Delete the
+   existing `A @` record (GoDaddy's "Parked" page) and any domain forwarding, then add:
+
+   | Type  | Name | Value                   |
+   |-------|------|-------------------------|
+   | A     | @    | 185.199.108.153         |
+   | A     | @    | 185.199.109.153         |
+   | A     | @    | 185.199.110.153         |
+   | A     | @    | 185.199.111.153         |
+   | AAAA  | @    | 2606:50c0:8000::153     |
+   | AAAA  | @    | 2606:50c0:8001::153     |
+   | AAAA  | @    | 2606:50c0:8002::153     |
+   | AAAA  | @    | 2606:50c0:8003::153     |
+   | CNAME | www  | renjithr.github.io      |
+
+   If a `CNAME www` record already exists, edit it rather than adding a second one.
+5. **Attach the domain.** Repo → **Settings** → **Pages** → **Custom domain** →
+   `communistvanchana.com` → Save. Once the DNS check passes (minutes to a few
+   hours), tick **Enforce HTTPS**.
+
+### Differences from Cloudflare
+
+- `_headers` is ignored, so GitHub's own caching applies (10 minutes on
+  everything). Fine for this site; CSS/JS changes show up sooner, scans re-download
+  more often.
+- `_redirects` is ignored. The build writes stub pages for `/kaalarekha/` and
+  `/rekhakal/` that redirect in the browser instead.
+- `CNAME` and `.nojekyll` are written into `build/` for completeness; with the
+  Actions deploy, the custom domain in Settings is what counts.
+
+---
+
+## Cloudflare Pages (alternative)
 
 The site is plain static HTML. **Cloudflare runs no build step** — you build locally
 and upload the finished `build/` folder. That means nothing can break on their side,

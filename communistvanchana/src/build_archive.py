@@ -344,6 +344,33 @@ def finalize():
                 "/kaalarekha/* / 301\n"
                 "/rekhakal/* /archive/ 301\n")
 
+    # Host config for both targets, so one build can deploy either way.
+    # Cloudflare reads _headers/_redirects and ignores CNAME/.nojekyll;
+    # GitHub Pages reads CNAME/.nojekyll and ignores _headers/_redirects.
+    w("CNAME", DOMAIN.split("//")[-1] + "\n")
+    w(".nojekyll", "")          # stop Jekyll eating paths that begin with _
+
+    # GitHub Pages cannot redirect at all, so the stub page has to do it
+    # itself. On Cloudflare the 301 in _redirects wins and this is never hit.
+    for path, dest in (("kaalarekha/index.html", "/"),
+                       ("rekhakal/index.html", "/archive/")):
+        w(path, redirect_stub(dest))
+
+def redirect_stub(dest):
+    """Stand-in for a 301 on hosts that have no redirect support.
+
+    Canonical for crawlers, meta refresh for browsers, and a plain link for
+    anyone both of those fail. A real 301 is better; this is what is available
+    when the host offers nothing.
+    """
+    return ("<!doctype html>\n<html lang=\"ml\">\n<head>\n"
+            "<meta charset=\"utf-8\">\n"
+            "<link rel=\"canonical\" href=\"" + DOMAIN + dest + "\">\n"
+            "<meta http-equiv=\"refresh\" content=\"0; url=" + dest + "\">\n"
+            "<title>Moved</title>\n</head>\n<body>\n"
+            "<p>This page has moved. <a href=\"" + dest + "\">Continue</a>.</p>\n"
+            "</body>\n</html>\n")
+
 def main():
     if os.path.isdir(BUILD):
         shutil.rmtree(BUILD)
